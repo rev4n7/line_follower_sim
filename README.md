@@ -2,7 +2,11 @@
 
 A camera-guided line-following robot in **Gazebo Harmonic**, built on **ROS 2 Jazzy**, steered by **pure pursuit**.
 
-![Mission control dashboard: onboard camera with the detected line, planned arc and goal point, plus live telemetry and a track map](docs/dashboard.png)
+![Gazebo world: a 12 × 8 m arena with a yellow S-bend race line, start gate, barrels, and the robot on the track](docs/gazebo_overview.png)
+
+| On the track | What the robot sees |
+|---|---|
+| ![The robot following the yellow line in Gazebo](docs/gazebo_robot.png) | ![Mission control dashboard: onboard camera with the detected line, planned arc and goal point, plus live telemetry and a track map](docs/dashboard.png) |
 
 **New here? Read [How it works](docs/HOW_IT_WORKS.md)** for the full explanation: perception, camera geometry, pure pursuit, the state machine, and how it maps to digital logic.
 
